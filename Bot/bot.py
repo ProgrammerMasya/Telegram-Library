@@ -5,7 +5,7 @@ bot = Handler(token)
 hello = ('привет')
 nastya = ('настя шлюха')
 yulia = ('как ты относишься к недашковской?')
-
+kolja = ('ты знаешь пташица?')
 
 def main():
 
@@ -27,6 +27,9 @@ def main():
 
             elif last_chat_text.lower() in yulia:
                 bot.send_message(last_chat_id, 'Я хочу ее отпиздить!!!')
+                
+            elif last_chat_text.lower() in kolja:
+                bot.send_message(last_chat_id, 'Да, он ахуенный!!!')
 
             else:
                 bot.send_message(last_chat_id, 'Вы далбаеб? Я вас не понимаю')
