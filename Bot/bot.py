@@ -3,8 +3,6 @@ from Config.config import token
 
 bot = Handler(token)
 hello = ('привет')
-nastya = ('настя шлюха')
-yulia = ('как ты относишься к недашковской?')
 
 
 def main():
